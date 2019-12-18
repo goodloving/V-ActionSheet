@@ -1,6 +1,6 @@
 {
-  "name": "v-actionsheet",
-  "version": "0.1.0",
+  "name": "vue-gl-actionsheet",
+  "version": "0.1.1",
   "private": false,
   "description": "基于Vue框架的原生actionsheet插件",
   "author": "goodloving 936106161@qq.com",

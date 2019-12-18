@@ -1,7 +1,8 @@
 ### VActionSheet
 #### 引入方式：
-  import {VActionSheet} from 'v-actionsheet'
-  Vue.use(VActionSheet) 
+import { VActionSheet } from "vue-gl-actionsheet";
+
+Vue.use(VActionSheet); 
 
 #### 属性：
 ---------------------------
@@ -12,7 +13,7 @@ onConfirm  | Function | 接受点击的item的值，根据值进行具体操作�
 onCancel  | Function | 点击蒙层区和“取消”隐藏ActionSheet和蒙层区
 
 #### 使用：
-    this.$actionSheet.show({
+    this.$vactionsheet.show({
       menus: this.menus,
       onConfirm: index => this.onConfirm(index),
       onCancel: () => this.onCancel()
@@ -20,7 +21,7 @@ onCancel  | Function | 点击蒙层区和“取消”隐藏ActionSheet和蒙层�
 
 ##### onConfirm和onCancel函数：
     onCancel() {
-      this.$actionSheet.hide();  //隐藏
+      this.$vactionsheet.hide();  //隐藏
     },
     onConfirm(index) {
       alert(index);  //具体操作
